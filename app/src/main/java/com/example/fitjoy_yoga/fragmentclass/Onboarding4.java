@@ -1,12 +1,20 @@
-package com.example.fitjoy_yoga;
+package com.example.fitjoy.fragmentclass;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+
+import com.example.fitjoy.R;
+import com.example.fitjoy.activityclass.MainActivity;
 
 /**
  * A simple {@link Fragment} subclass.

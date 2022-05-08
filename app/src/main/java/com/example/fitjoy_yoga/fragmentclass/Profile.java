@@ -1,4 +1,4 @@
-package com.example.fitjoy_yoga;
+package com.example.fitjoy.fragmentclass;
 
 import android.os.Bundle;
 
@@ -8,12 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.fitjoy.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Onboarding1#newInstance} factory method to
+ * Use the {@link Profile#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Onboarding1 extends Fragment {
+public class Profile extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +26,7 @@ public class Onboarding1 extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Onboarding1() {
+    public Profile() {
         // Required empty public constructor
     }
 
@@ -34,11 +36,11 @@ public class Onboarding1 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Onboarding1.
+     * @return A new instance of fragment Profile.
      */
     // TODO: Rename and change types and number of parameters
-    public static Onboarding1 newInstance(String param1, String param2) {
-        Onboarding1 fragment = new Onboarding1();
+    public static Profile newInstance(String param1, String param2) {
+        Profile fragment = new Profile();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +61,6 @@ public class Onboarding1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_onboarding1, container, false);
+        return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 }
