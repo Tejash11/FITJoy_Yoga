@@ -33,3 +33,6 @@ This mobile application have another sparkling feature of practical community bu
 Global Community 
 There are global events which connect the users virtually to compete with each other. This gives them a recognised platform to showcase their talent and acknowledge their hard work.
 
+# **Images**
+<img src="https://github.com/Tejash11/FITJoy_Yoga/assets/85128841/5410e890-3795-4b51-bbe3-da8865696672"  width="30%" height="30%"/> 
+<img src="https://github.com/Tejash11/FITJoy_Yoga/assets/85128841/f8f3d3d8-3bb0-4d43-a513-4d8b52f777aa"  width="30%" height="30%"/>
